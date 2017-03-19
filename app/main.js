@@ -1,4 +1,4 @@
-console.log("one");
+console.log("Iniciando main.js na data: " + new Date);
 let game = new Phaser.Game(800, 600, Phaser.AUTO, 'gamediv', { preload: preload, create: create, update: update });
 
 function preload() {
